@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background: #f8f9fa;
+    font-family: "Inter", sans-serif;
+}
+
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.sideimg {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #0d6efd;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.section-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #343a40;
+}
+
+.sideimg {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.filter-pills{
+    width:90px;
+    padding:10px 0;
+    cursor:pointer;
+}
+
+.filter-pills-active{
+    color:#fff !important;
+    background: #0d6efd !important;
+    border-color:#0d6efd !important;
+}
