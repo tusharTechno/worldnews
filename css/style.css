@@ -138,6 +138,10 @@ p{
 }
 
 
+.banner-img{
+    height:32rem;
+}
+
 /* card loading */
 .skeleton-loader .skeleton {
   background-color: #f4f3f3;
@@ -181,6 +185,13 @@ p{
 .card .img-box{
     height:10rem;
 }
+
+
+.banner-img{
+    height:30rem;
+}
+
+
 }
 
 @media screen and (max-width: 786px) {
@@ -193,6 +204,10 @@ p.small{
 
 .card .img-box{
     height:10rem;
+}
+
+.banner-img{
+    height:20rem;
 }
 
 
