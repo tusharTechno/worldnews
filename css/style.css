@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'Inter';
     src: local('Inter Semi Bold'), local('Inter-SemiBold'),
-        url('fonts/Inter-Regular.woff/Inter-SemiBold.woff2') format('woff2');
+        url('../fonts/Inter-SemiBold.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -18,7 +18,7 @@
 @font-face {
     font-family: 'Inter';
     src: local('Inter Medium'), local('Inter-Medium'),
-        url('fonts/Inter-Regular.woff/Inter-Medium.woff2') format('woff2');
+        url('../fonts/Inter-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -27,7 +27,7 @@
 @font-face {
     font-family: 'Inter';
     src: local('Inter Bold'), local('Inter-Bold'),
-        url('fonts/Inter-Regular.woff/Inter-Bold.woff2') format('woff2');
+        url('../fonts/Inter-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -36,7 +36,7 @@
 @font-face {
     font-family: 'Inter';
     src: local('Inter Regular'), local('Inter-Regular'),
-        url('fonts/Inter-Regular.woff/Inter-Regular.woff2') format('woff2');
+        url('../fonts/Inter-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -162,6 +162,29 @@ p{
   animation: skeleton-shimmer 1.6s infinite;
 }
 
+.notfound-icon{
+    width:5rem;
+    border-radius:50%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height:5rem;
+}
+
+
+.notfound-icon i{
+   font-size:3rem;
+}
+
+
+.not-found-container{
+    min-height:100svh;
+}
+
+.not-found-container p{
+    width:50%;
+}
+
 @keyframes skeleton-shimmer {
   0% {
     left: -100%;
@@ -191,6 +214,9 @@ p{
     height:30rem;
 }
 
+.not-found-container p{
+    width:70%;
+}
 
 }
 
@@ -208,6 +234,10 @@ p.small{
 
 .banner-img{
     height:20rem;
+}
+
+.not-found-container p{
+    width:100%;
 }
 
 
